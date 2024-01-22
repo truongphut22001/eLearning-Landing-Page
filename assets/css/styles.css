@@ -393,17 +393,17 @@ a {
     width: 30%;
 }
 
+.courses .info .item:hover {
+    opacity: 0.4;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
 .courses .info .img {
     width: 359px;
     height: 393px;
     object-fit: cover;
     border-radius: 8px;
-}
-
-.courses .info .img:hover {
-    opacity: 0.35;
-    background: #d0efed;
-    cursor: pointer;
 }
 
 .course-info {
