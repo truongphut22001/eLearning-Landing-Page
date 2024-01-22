@@ -460,7 +460,6 @@ a {
 .stats .body {
     display: flex;
     width: 862px;
-    height: 131px;
     margin: 0px auto;
     justify-content: space-between;
 }
