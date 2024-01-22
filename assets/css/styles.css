@@ -170,6 +170,10 @@ a {
     font-weight: 600;
 }
 
+.hero .content-block .hero-btn:hover {
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
 .hero .watch-video {
     margin-left: 50px;
     border: none;
@@ -186,6 +190,10 @@ a {
     border-radius: 62px;
     background: #fff;
     box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .watch-video .icon:hover {
+    opacity: 0.6;
 }
 
 /* Hero right */
@@ -590,4 +598,91 @@ a {
     background: #b1dfdc;
     top: 374px;
     right: 32px;
+}
+
+/* Action */
+.admit-action {
+    margin-top: 65px;
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.admit-action .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1024px;
+}
+
+.admit-action .action-left .title {
+    max-width: 420px;
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.admit-action .action-left .desc {
+    max-width: 397px;
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+
+.admit-action .btn {
+    background: #2ac9bf;
+}
+/* Footer */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .contact .logo {
+    width: 127px;
+    height: 37px;
+}
+
+.footer .contact .column ul {
+    margin-top: 18px;
+    padding-top: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer .contact .column:last-of-type ul {
+    padding-top: 0;
+}
+
+.footer .contact .column .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .contact .column .link {
+    color: #535353;
+    font-size: 1.6rem;
+}
+
+.footer .column .social {
+    margin-right: 13px;
+}
+
+.footer .column .social.facebook {
+    margin-right: 19px;
+}
+
+.footer .copy-right {
+    margin-top: 80px;
+}
+
+.footer .copy-right p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
 }
