@@ -443,3 +443,151 @@ a {
     background: #1ebfc1;
     border-radius: 50%;
 }
+
+/* Stats */
+.stats {
+    margin: 389px 0 265px;
+}
+
+.stats .body {
+    display: flex;
+    width: 862px;
+    height: 131px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.stats .item .number {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.stats .item .sub-title {
+    color: #767e7e;
+    font-size: 1.8rem;
+    margin-top: 11px;
+}
+
+/* Feedback */
+.feedback {
+    padding-bottom: 65px;
+}
+
+.feedback .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback .feedback-block {
+    width: 36%;
+}
+
+.feedback .feedback-block .content {
+    width: 419px;
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .feedback-block .student {
+    color: #767e7e;
+    font-size: 1.6rem;
+    margin-top: 33px;
+}
+
+.feedback .feedback-block .student-name {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback .arrow-btn {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.feedback .arrow-btn .arrow {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.feedback .arrow-btn .arrow:hover {
+    opacity: 0.8;
+}
+
+.feedback .arrow-btn .arrow:last-of-type {
+    transform: rotate(180deg);
+}
+
+.feedback .arrow-btn .icon {
+    width: 6px;
+    height: 12px;
+}
+
+.feedback .avatar-block {
+    position: relative;
+    height: 481px;
+    width: 58%;
+}
+
+.feedback .avatar-block .avatar-div {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.feedback .avatar-block .avatar-div:nth-of-type(1) {
+    background: #ff8282;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+}
+
+.feedback .avatar-block .avatar-div:nth-of-type(2) {
+    background: #bf83ff;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.feedback .avatar-block .avatar-div:nth-of-type(3) {
+    background: #1ebfc1;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+}
+
+.feedback .avatar-block .avatar-div:nth-of-type(n + 4) {
+    width: 78px;
+    height: 78px;
+}
+
+.feedback .avatar-block .avatar-div:nth-of-type(4) {
+    background: #ffc147;
+    top: 258px;
+    left: 0;
+}
+
+.feedback .avatar-block .avatar-div:nth-of-type(5) {
+    background: #ff947a;
+    left: 212px;
+    bottom: 0;
+}
+
+.feedback .avatar-block .avatar-div:nth-of-type(6) {
+    background: #b1dfdc;
+    top: 374px;
+    right: 32px;
+}
